@@ -1,6 +1,7 @@
-import bpy
+
 import bmesh
 import math
+import hey
 
 # Clear existing mesh objects
 bpy.ops.object.select_all(action='DESELECT')
