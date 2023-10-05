@@ -11,9 +11,9 @@ bpy.ops.object.delete()
 bpy.ops.mesh.primitive_uv_sphere_add(radius=1, location=(0, 0, 0))
 
 # Select the newly created sphere
-sphere = bpy.context.object
-bpy.context.view_layer.objects.active = sphere
-sphere.select_set(True)
+sphere = bpy.context.object;
+bpy.context.view_layer.objects.active = sphere;
+sphere.select_set(True);
 
 # Create a new material
 material = bpy.data.materials.new(name="GoldenMaterial")
