@@ -1,6 +1,6 @@
 import javafx.application.Application;
 import javafx.scene.Group;
-import javafx.scene.PerspectiveCamera;
+import javafx.scene.PerspectiveCamera
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Cylinder;
@@ -13,7 +13,7 @@ public class Stomach3DModel extends Application {
     @Override
     public void start(Stage primaryStage) {
         Group root = new Group();
-        Scene scene = new Scene(root, 800, 600, true);
+        Scene scene = new Scene(root, 800, 600, true)
 
         PerspectiveCamera camera = new PerspectiveCamera(true);
         camera.setNearClip(0.1);
@@ -34,6 +34,7 @@ public class Stomach3DModel extends Application {
 
         // Add the stomach parts to the root
         root.getChildren().addAll(upperStomach, lowerStomach);
+        System.Out.prinln("hello");
 
         // Set up rotation for visualization
         Rotate rotateX = new Rotate(0, Rotate.X_AXIS);
