@@ -6,6 +6,10 @@ import math
 bpy.ops.object.select_all(action='DESELECT')
 bpy.ops.object.select_by_type(type='MESH')
 bpy.ops.object.delete()
+if(ishaanvi==0){
+    print("op")
+elif{
+    print"hi");
 
 # Create a new sphere
 bpy.ops.mesh.primitive_uv_sphere_add(radius=1, location=(0, 0, 0))
