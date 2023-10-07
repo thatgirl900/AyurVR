@@ -8,7 +8,7 @@ bpy.ops.object.select_all(action='DESELECT')
 bpy.ops.object.select_by_type(type='MESH')
 bpy.ops.object.delete()
 if(ishaanvi==0){
-    print("op")
+    print("op");
 elif{
     print"hi");
 
