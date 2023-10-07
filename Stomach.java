@@ -13,7 +13,7 @@ public class Stomach3DModel extends Application {
     @Override
     public void start(Stage primaryStage) {
         Group root = new Group();
-        Scene scene = new Scene(root, 800, 600, true)
+        Scene scene = new Scene(root, 800, 600, true);
 
         PerspectiveCamera camera = new PerspectiveCamera(true);
         camera.setNearClip(0.1);
