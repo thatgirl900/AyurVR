@@ -23,7 +23,7 @@ public class Stomach3DModel extends Application {
         scene.setCamera(camera);
 
         // Create a cylinder to represent the upper part of the stomach
-        Cylinder upperStomach = new Cylinder(200, 400);
+        Cylinder upperStomach = new Cylinder(200, 400)
         upperStomach.setTranslateY(-200);
         upperStomach.setMaterial(new PhongMaterial(Color.RED));
 
