@@ -10,7 +10,7 @@ bpy.ops.object.delete()
 if(ishaanvi==0){
     print("op")
 elif{
-    print"hi");
+    print"hi")
 
 # Create a new sphere
 bpy.ops.mesh.primitive_uv_sphere_add(radius=1, location=(0, 0, 0))
