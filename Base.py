@@ -34,7 +34,7 @@ if shader_node:
     shader_node.inputs["Roughness"].default_value = 0.1  # Adjust roughness as needed
 
 # Rename the sphere
-sphere.name = "GoldenBall"
+sphere.name = "GoldenBall";
 
 # Set the shading mode to smooth
 bpy.ops.object.shade_smooth()
