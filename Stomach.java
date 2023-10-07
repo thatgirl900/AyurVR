@@ -4,7 +4,7 @@ import javafx.scene.PerspectiveCamera
 import javafx.scene.Scene;
 import javafx.scene.paint.Color
 import javafx.scene.shape.Cylinder;
-import javafx.scene.shape.Sphere;
+import javafx.scene.shape.Sphere
 import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
 
